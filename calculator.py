@@ -38,4 +38,8 @@ def calc2(user_input):
         result = cube(tokens[1])
         print result    
 
+    if tokens[0] == "pow":
+        result = power(tokens[1], tokens[2])
+        print result
+
 calc2(user_input)

@@ -46,4 +46,8 @@ def calc2(user_input):
         result = mod(tokens[1], tokens[2])
         print result
 
+    if tokens[0] == "q":
+        print "exiting calculator"
+    return    
+
 calc2(user_input)

@@ -34,4 +34,8 @@ def calc2(user_input):
         result = square(tokens[1])
         print result 
 
+    if tokens[0] == "cube":
+        result = cube(tokens[1])
+        print result    
+
 calc2(user_input)

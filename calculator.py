@@ -26,4 +26,8 @@ def calc2(user_input):
         result = multiply(tokens[1], tokens[2])
         print result
 
+    if tokens[0] == "/":
+        result = divide(tokens[1], tokens[2])
+        print result    
+
 calc2(user_input)
